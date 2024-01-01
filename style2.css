@@ -210,6 +210,9 @@ nav {
 }
 
 .wrapper{
+   margin-left: 5px ;
+    margin-right: 5px;
+    
     background: #fff;
     border: 1px 2px solid #a61446;
     width: 350px;
@@ -295,7 +298,7 @@ nav {
     
 }
 .long2:hover {
-    width: 800px;
+    width: 1100px;
 }
 .long:hover{
     width: 1000%;
