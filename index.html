@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Aki Mart</label>
+      <label class="blacklogo">Aki Mart</label>
+      <ul>
+        <li><a  href="#landing">Home</a></li>
+        <li><a href="items.html">Items</a></li>
+        
+        <li><a href="#">Contact</a></li>
+    
+        
+      </ul>
+    </nav>
+    <section id="landing">
+      <div class="landimg">
+        <img src="asset/land.jpg">
+      </div>
+      <div class="landtext">
+      <div class="landhead">
+        <h1>AKI Mart<br> Best Store In Town!</h1>
+      </div>
+      <div class="landp">
+        
+      </div>
+    </div>
+    
+    </section>
+    <section id="text"></section>
+    <div class="maintext">
+        <h1>Ethiopian Traditional Clothes</h1>
+        <p>Ethiopia is home to a cherished cultural heritage. From the vibrant music and arts to the unique history
+             and folklore, Ethiopia is a treasure trove of cultural gems. In the same manner, traditional Ethiopian 
+             clothing is a mark of the country’s distinct heritage and identity. The culture they preserved through 
+             the centuries is reflected in the styles and patterns of their attire. Ethiopians take great pride in 
+             their traditional clothing. Ethiopians enjoy wearing their traditional clothing to a variety of social
+              events, such as weddings and religious ceremonies, but it is also seen worn in everyday life.
+              <br>                  ..<br>
+              <br>..<br>
+              <br>..<br> <br>..<br>
+              <br>..<br>
+              <br>..<br>
+              <br>..<br>
+              <br>..<br>
+        </p>
+        
+    </div>
+
+    
+
+
+    <!-- java script -->
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+      var nav =document.querySelector("nav");
+      nav.classList.toggle("sticky",window.scrollY > 100);
+  
+        })
+      </script>
+  
+  <script defer src="animation.js"></script>
+        
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+  
+    </body>
+  </html>
