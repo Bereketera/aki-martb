@@ -298,10 +298,10 @@ nav {
     
 }
 .long2:hover {
-    width: 1100px;
+    width: 1200px;
 }
 .long:hover{
-    width: 1000%;
+    width: 1200%;
     height: 100%;
     background-color: white;
     transition: all 1s;
